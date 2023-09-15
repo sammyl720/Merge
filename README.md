@@ -18,7 +18,7 @@ The `Merge` solution is a C# project aimed at providing a utility for merging ta
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Merge.git
+    git clone https://github.com/sammyl720/Merge.git
     ```
 2. Navigate to the project directory:
     ```bash
