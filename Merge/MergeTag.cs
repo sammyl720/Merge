@@ -14,7 +14,7 @@ public class MergeTag
     /// Initializes a new instance of the <see cref="MergeTag"/> class with default opening and closing tags.
     /// </summary>
     /// <param name="tags">The dictionary of tags and their associated values.</param>
-    public MergeTag(Dictionary<string, object> tags) : this(tags, "<", ">") { }
+    public MergeTag(Dictionary<string, object> tags) : this(tags, ">", ">") { }
 
     /// <summary>
     /// Initializes a new instance of the <see cref="MergeTag"/> class with custom opening and closing tags.
