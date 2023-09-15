@@ -20,8 +20,8 @@ public class MergeTag
     /// Initializes a new instance of the <see cref="MergeTag"/> class with custom opening and closing tags.
     /// </summary>
     /// <param name="tags">The dictionary of tags and their associated values.</param>
-    /// <param name="openingTag">The opening tag.</param>
-    /// <param name="closingTag">The closing tag.</param>
+    /// <param name="openingTag">The opening tag. For example "{"</param>
+    /// <param name="closingTag">The closing tag. For example "}"</param>
     public MergeTag(Dictionary<string, object> tags, string openingTag, string closingTag)
     {
         ValidateTags(openingTag, closingTag);
